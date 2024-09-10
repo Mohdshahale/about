@@ -1,4 +1,4 @@
-@media screen  and (max-width:390px){
+@media screen  and (max-width:900px){
     body{
         margin-left: 0%;
         margin-right: 0%;
@@ -11,7 +11,8 @@
         animation: appear  linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
-        width: 500px;
+       display: flex;
+       flex: 1;
         font-family: inter;
         place-items: center;
         text-align: center;
@@ -20,11 +21,15 @@
         margin-right: 150px;
         min-width: 100px;
         margin-top: 200px;
+        margin-right: 0;
     }
-    .left-sectiom{
+    .left-aboutus{
         animation: appear  linear;
     animation-timeline: view();
     animation-range: entry 0 cover 40%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
     }
     .head-aboutus{
     
@@ -58,3 +63,7 @@
     transition: 1s ease;
 }
     }
+    
+        
+
+
