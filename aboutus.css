@@ -12,6 +12,7 @@ body{
     display: flex;
     align-items: center;
     background-color: #eeebdd;
+    column-gap: 20px;
     
     
     
@@ -34,13 +35,18 @@ body{
     animation-range: entry 0 cover 40%;
     width: 500px;
     font-family: inter;
-    place-items: center;
-    text-align: center;
+    
+   
     padding-bottom: 300px;
     flex-direction: row;
     margin-right: 150px;
     min-width: 100px;
     margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
     
     
     
@@ -54,6 +60,7 @@ body{
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 1s ease;
     margin-bottom: 30px;
+    margin-left: 20px;
     
     
 }
@@ -66,26 +73,34 @@ body{
     transform: scale(1.2);
 }
 .head-aboutus{
-    
+    display: flex;
+    flex: 1;
     color: #ce1212;
     text-decoration: solid;
     font-size: 35PX;
     margin-top: 20PX;
     font-weight: bold;
+    margin-left: 20px;
+    justify-content: center;
+    margin-bottom: 0;
     
     
 }
 .para-aboutus{
+    display: flex;
+    flex: 1;
     color: #1b1717;
     text-align: center;
     font-size: 30px;
     padding-bottom: 20px;
     text-justify: auto;
     line-height: 40px;
+    margin-left: 20px;
+    justify-content: center;
+    
    
 }
 .meh{
     width: 100%;
     height: 800px;
 }
-
