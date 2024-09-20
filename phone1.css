@@ -6,6 +6,8 @@
     .grid-aboutus{
         width: 390px;
         display: block;
+        flex-wrap: wrap;
+        
     }
     .right-aboutus{
         animation: appear  linear;
@@ -63,7 +65,6 @@
     transition: 1s ease;
 }
     }
-    
-        
+
 
 
